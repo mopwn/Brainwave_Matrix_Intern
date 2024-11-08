@@ -2,6 +2,7 @@ import requests
 import os
 import base64
 
+#Make sure you have a VirusTotal API key and set it in your environment variables as VIRUSTOTAL_API_KEY.
 API_KEY = os.environ['VIRUSTOTAL_API_KEY']
 
 url = 'https://www.virustotal.com/api/v3/urls'
